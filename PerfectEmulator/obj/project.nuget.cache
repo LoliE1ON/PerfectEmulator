@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7v5VRbhaHFs+YbvA1ZeNRUOLHidMhlO8oMPajyhHF9o6C8NneN+4NnFKJRHqszDdES1rQXx1SaXM90dKBUVPbw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\trohi\\RiderProjects\\PerfectEmulator\\PerfectEmulator\\PerfectEmulator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trohi\\.nuget\\packages\\simpleinjector\\5.4.4\\simpleinjector.5.4.4.nupkg.sha512"
+  ],
+  "logs": []
+}

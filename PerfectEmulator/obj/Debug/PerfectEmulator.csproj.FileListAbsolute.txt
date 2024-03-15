@@ -1,0 +1,8 @@
+C:\Users\trohi\RiderProjects\PerfectEmulator\PerfectEmulator\bin\Debug\PerfectEmulator.exe
+C:\Users\trohi\RiderProjects\PerfectEmulator\PerfectEmulator\bin\Debug\PerfectEmulator.pdb
+C:\Users\trohi\RiderProjects\PerfectEmulator\PerfectEmulator\bin\Debug\SimpleInjector.dll
+C:\Users\trohi\RiderProjects\PerfectEmulator\PerfectEmulator\obj\Debug\PerfectEmulator.csproj.AssemblyReference.cache
+C:\Users\trohi\RiderProjects\PerfectEmulator\PerfectEmulator\obj\Debug\PerfectEmulator.csproj.CoreCompileInputs.cache
+C:\Users\trohi\RiderProjects\PerfectEmulator\PerfectEmulator\obj\Debug\PerfectEmulator.csproj.CopyComplete
+C:\Users\trohi\RiderProjects\PerfectEmulator\PerfectEmulator\obj\Debug\PerfectEmulator.exe
+C:\Users\trohi\RiderProjects\PerfectEmulator\PerfectEmulator\obj\Debug\PerfectEmulator.pdb

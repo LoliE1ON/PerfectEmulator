@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\trohi\\RiderProjects\\PerfectEmulator\\PerfectEmulator\\PerfectEmulator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\trohi\\RiderProjects\\PerfectEmulator\\PerfectEmulator\\PerfectEmulator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trohi\\RiderProjects\\PerfectEmulator\\PerfectEmulator\\PerfectEmulator.csproj",
+        "projectName": "PerfectEmulator",
+        "projectPath": "C:\\Users\\trohi\\RiderProjects\\PerfectEmulator\\PerfectEmulator\\PerfectEmulator.csproj",
+        "packagesPath": "C:\\Users\\trohi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trohi\\RiderProjects\\PerfectEmulator\\PerfectEmulator\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\trohi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net481"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net481": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net481": {
+          "dependencies": {
+            "SimpleInjector": {
+              "target": "Package",
+              "version": "[5.4.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

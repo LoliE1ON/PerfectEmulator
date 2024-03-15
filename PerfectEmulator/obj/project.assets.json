@@ -1,0 +1,164 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8.1": {
+      "SimpleInjector/5.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/net461/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8.1/win": {
+      "SimpleInjector/5.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/net461/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8.1/win-arm64": {
+      "SimpleInjector/5.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/net461/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8.1/win-x64": {
+      "SimpleInjector/5.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/net461/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8.1/win-x86": {
+      "SimpleInjector/5.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/net461/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SimpleInjector/5.4.4": {
+      "sha512": "YfsRSqrk8bh/Eg7XDeyDypBP+FyUmgNPCxPYr0KuTAYxNd8/TbHL5NCWJbDQyTOe9UQ3swe/GdFkComaxOUQ9g==",
+      "type": "package",
+      "path": "simpleinjector/5.4.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/SimpleInjector.dll",
+        "lib/net45/SimpleInjector.xml",
+        "lib/net461/SimpleInjector.dll",
+        "lib/net461/SimpleInjector.xml",
+        "lib/netstandard1.0/SimpleInjector.dll",
+        "lib/netstandard1.0/SimpleInjector.xml",
+        "lib/netstandard1.3/SimpleInjector.dll",
+        "lib/netstandard1.3/SimpleInjector.xml",
+        "lib/netstandard2.0/SimpleInjector.dll",
+        "lib/netstandard2.0/SimpleInjector.xml",
+        "lib/netstandard2.1/SimpleInjector.dll",
+        "lib/netstandard2.1/SimpleInjector.xml",
+        "simpleinjector.5.4.4.nupkg.sha512",
+        "simpleinjector.nuspec",
+        "simpleinjector.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8.1": [
+      "SimpleInjector >= 5.4.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\trohi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\trohi\\RiderProjects\\PerfectEmulator\\PerfectEmulator\\PerfectEmulator.csproj",
+      "projectName": "PerfectEmulator",
+      "projectPath": "C:\\Users\\trohi\\RiderProjects\\PerfectEmulator\\PerfectEmulator\\PerfectEmulator.csproj",
+      "packagesPath": "C:\\Users\\trohi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\trohi\\RiderProjects\\PerfectEmulator\\PerfectEmulator\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\trohi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net481"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net481": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net481": {
+        "dependencies": {
+          "SimpleInjector": {
+            "target": "Package",
+            "version": "[5.4.4, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
