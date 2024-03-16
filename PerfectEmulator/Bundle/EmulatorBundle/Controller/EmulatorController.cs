@@ -31,31 +31,23 @@ namespace PerfectEmulator.Bundle.EmulatorBundle.Controller
 
             Console.WriteLine(">>> Press 'X' to trigger the custom hotkey.");
 
-            bool isRunning = true;
-            while (isRunning)
+            while (true)
             {
                 if (_interceptor.IsHotkeyPressed(Key.X))
                 {
-                    foreach (var hWnd in windows)
+                    foreach (var window in windows)
                     {
-                        _windowFinder.SendKeyToWindow(hWnd, Key.F12);
+                        _windowFinder.SendKeyToWindow(window, Key.F12);
 
                         DateTime currentTime = DateTime.Now;
                         string formattedTime = currentTime.ToString("HH:mm:ss");
 
-                        Console.WriteLine("[OK][" + formattedTime + "] Sent to " + hWnd);
+                        Console.WriteLine("[OK][" + formattedTime + "] Sent to " + window);
 
                         Thread.Sleep(Performance.ThreadSleep);
                     }
                 }
-
-                if (Console.KeyAvailable)
-                {
-                    ConsoleKeyInfo key = Console.ReadKey(true);
-                    if (key.KeyChar == 'q' || key.KeyChar == 'Q')
-                        isRunning = false;
-                }
-
+                
                 Thread.Sleep(Performance.ThreadSleep); // Avoid CPU overload
             }
         }
